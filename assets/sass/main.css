@@ -982,7 +982,7 @@ header {
   max-width: 50rem;
   background-color: #4a56a7;
   margin: 0 auto;
-  
+  margin-top: 5rem;
 }
 
 .hero__img img {
@@ -993,6 +993,10 @@ header {
 
 .hero__main {
   color: white;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-top: 5rem;
 }
 
 .dropbtn {
@@ -1098,8 +1102,11 @@ header {
 }
 
 .hero-four__contents {
+  width: 100%;
+  max-width: 47rem;
   padding: 10rem 0;
   color: #ffffff;
+  margin: 0 auto;
 }
 
 .hero-four__contents h2 {
@@ -1138,6 +1145,12 @@ header {
 .service-img img {
   max-width: 64rem;
   width: 100%;
+}
+
+.service-img {
+  max-width: 64rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .hero-five__heading {
@@ -1219,6 +1232,9 @@ header {
 .hero-six__main {
   margin-top: 10rem;
   margin-bottom: 10rem;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
 }
 
 .hero-six__main h2 {
@@ -1237,6 +1253,12 @@ header {
 .gallery img {
   max-width: 70rem;
   width: 100%;
+}
+
+.gallery {
+  max-width: 70rem;
+  width: 100%;
+  margin: 0 auto
 }
 
 .hero-seven {
@@ -1300,8 +1322,14 @@ header {
   nav {
     display: none;
   }
+  /* header {
+    display: none;
+  } */
+
   .dropbtn {
     display: block;
+    /* max-height: auto; */
+    overflow: visible;
   }
   .header__btn {
     display: none;
@@ -1488,10 +1516,13 @@ footer {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  border: 1px solid #f1f1f1
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #5864BA;
+  
+  
 }
 
 .dropdown {
@@ -1499,11 +1530,13 @@ footer {
   display: inline-block;
   margin-right: 2rem;
   color: #ffffff;
+  /* border: 1px solid #f1f1f1 */
 }
 
 .dropdown a {
   font-family: 'Epilogue', sans-serif;
   background-color: #5864BA;
+  
 }
 
 .dropdown-content {
@@ -1535,4 +1568,10 @@ footer {
 nav a {
   color: white;
 }
+
+
+.carousel_div{
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */
