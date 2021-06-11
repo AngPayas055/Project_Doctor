@@ -273,12 +273,7 @@ a {
 }
 
 .button-pink:hover {
-  -webkit-transform: translateY(-20px);
-          transform: translateY(-20px);
-  background-position: center 100%;
-  background-size: 105%;
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(119, 119, 119, 0.6);
-          box-shadow: 0px 0px 20px 0px rgba(119, 119, 119, 0.6);
+ background-color: #f3616b;
 }
 
 .button-pink:hover .card__button {
@@ -979,14 +974,21 @@ header {
 }
 
 .hero__img {
+  /* background-color: #4a56a7; */
+  background-color: #e1e4f3;
+  /* padding-right: auto; */
+  /* padding-right: auto; */
+  width: 100%;
+  max-width: 50rem;
   background-color: #4a56a7;
+  margin: 0 auto;
+  
 }
 
 .hero__img img {
   width: 100%;
   max-width: 50rem;
-  margin-top: auto;
-  margin: 0 auto;
+  /* background-color: crimson; */
 }
 
 .hero__main {

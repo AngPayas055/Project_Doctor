@@ -1,0 +1,15 @@
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .testimonial__p {
+      height: auto;
+    }
+    h1{
+        font-size: 5rem;
+        line-height: 6.0rem;
+    }
+  }
+
